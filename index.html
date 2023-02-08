@@ -11,22 +11,283 @@
 </head>
 
 <body>
-     <h1 class="text-yellow-200 bg-green-600 p-4 text-4xl text-center hover:bg-green-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eligendi.</h1>
+    <!-- <h1 class="text-yellow-200 bg-green-600 p-4 text-4xl text-center hover:bg-green-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eligendi.</h1>
    <div class=" bg-slate-800 w-24 m-auto p-1 rounded-lg">
     <div class="bg-red-500  text-center flex items-center justify-center w-20 h-20 m-auto mt-2 rounded-full animate-spin hover:bg-red-700"></div>
     <div class="bg-yellow-600  text-center flex items-center justify-center w-20 h-20 m-auto mt-2 rounded-full hover:bg-yellow-300"></div>
     <div class="bg-green-500  text-center flex items-center justify-center w-20 h-20 m-auto mt-2 rounded-full hover:bg-green-700"></div>
    </div>
-    <div class="bg-black  text-center flex items-center justify-center w-5 h-96 m-auto  "></div>
+    <div class="bg-black  text-center flex items-center justify-center w-5 h-96 m-auto  "></div> -->
 
-    <header class="">
-        <div class="container">
-            <div class="header__inner">
-                img.
+    <header class=" mx-auto px-[90px]">
+        <div class="container mx-auto w-[1256px] ">
+            <div class="header__inner flex items-center justify-between py-4 px-3 mt-[54px]">
+                <img src="./src/images/logo.svg" alt="logo" class="logo ">
+                <nav class="nav">
+                    <ul class="ul flex items-center justify-between w-[372px]">
+                        <li class="links"><a href="#" class="link text-base text-[#303948]">About</a></li>
+                        <li class="links"><a href="#" class="link text-base text-[#303948]">Services</a></li>
+                        <li class="links"><a href="#" class="link text-base text-[#303948]">Client</a></li>
+                        <li class="links"><a href="#" class="link text-base text-[#303948]">Blog</a></li>
+                        <li class="links"><a href="#" class="link text-base text-[#303948]">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
+    <section class="hero mx-auto px-[90px] mt-8 ">
+        <div class="container  mx-auto w-[1256px]">
+            <div
+                class="hero__inner overflow-hidden flex items-center justify-between bg-[url(./src/images/hero-bg.jpg)] bg-no-repeat rounded-[35px] bg-center">
+                <div class="hero--items my-[216px] ml-[76px] w-[450px] ">
+                    <h1 class="hero-title text-[50px] leading-[71px] font-bold text-white mb-[18px]">
+                        Go digital with us
+                    </h1>
+                    <p class="hero-text text-white mb-[52px] leading-[26px] text-[18px] font-normal">
+                        We have designed hundreds of websites and helped improve their online performance through SEO,
+                        SEM and Social Media Marketing
+                    </p>
+                    <a href="#"
+                        class="button items-center text-center text-[#303948] text-[22px] leading-[31px] font-medium px-[53px] py-[18px] bg-[#FAFAFA] rounded-[35px]">See
+                        Portofolio</a>
+                </div>
+                <img src="./src/images/hero-img.png" alt="" class="hero-img ">
+            </div>
+        </div>
+    </section>
+
+    <section class="experience mx-auto  w-[1039px] shadow-[0px_20px_50px_rgba(0,0,0,0.15)] relative">
+        <div class="container mx-auto ">
+            <div
+                class="experience__inner absolute top-[-82px] bg-[url(./src/images/experience-bg.png)] py-[97px] pl-[45px] pr-[60px] bg-[#14213D] rounded-[35px]">
+                <div class="relative">
+                    <h2 class="title text-white font-medium text-[36px] leading-[51px] mb-[29px]">
+                        We are experienced
+                    </h2>
+                    <p class="text  text-white font-normal text-[18px] leading-[26px] mb-[3px]">
+                        We have been around for a long time since 2010, thousands of products have been created, we are
+                        always here to provide new innovations for you
+                    </p>
+                    <button class="btn w-12 absolute right-[60px]">
+                        <img src="./src/images/arrow-right.png" alt="arrow-right" class="arrow">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="client  mt-[254px]">
+        <div class="container  mx-auto w-[1260px]">
+            <div class="client__inner mx-auto  w-[566px] flex items-center flex-col justify-center">
+                <h2 class="client-title mt-[73px] font-medium text-4xl leding-[51px] text-[#303948]">Client</h2>
+                <p class="client-text mt-[25px] font-normal text-[18px] leading-[26px] text-[#303948]">
+                    Using Our Experience To Make Your Digital Experience Brighter
+                </p>
+                <div class="client-icons mt-[57px] flex gap-[27px] items-center justify-between">
+                    <a href="#" class="client-icon">
+                        <img src="./src/images/Microsoft.svg" alt="Microsoft icon" class="client--icon-img">
+                    </a>
+                    <a href="#" class="client-icon">
+                        <img src="./src/images/google.svg" alt="google icon" class="client--icon-img">
+                    </a>
+                    <a href="#" class="client-icon">
+                        <img src="./src/images/amazon.svg" alt="amazon icon" class="client--icon-img mt-[18px]">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution mt-44">
+        <div class="container mx-auto w-[1260px]">
+            <div class="solution__inner relative flex items-center justify-between">
+                <div class="left  bg-[#E5E5E5] bg-no-repeat w-[522px] h-[743px] rounded-[35px]">
+                    <img src="./src/images/Dot Grid.svg" alt="dots"
+                        class="dots absolute z-10 top-[-69px] left-[380px] ">
+                    <img src="./src/images/solution-people.png" alt="people"
+                        class="people absolute top-[-46px] left-[-33px] ">
+                </div>
+                <div class="right w-[615px]">
+                    <span class="font-normal text-[18px] leading-[26px] text-[#303948] mb-[14px]">Who We Help</span>
+                    <h2 class="title font-medium text-[36px] leading-[51px] text-[#14213D] mb-[14px]">Specific
+                        challenges require specific solutions</h2>
+                    <p class="text mb-[75px] font-normal text-[18px] leading-[26px] text-[#59616D]">
+                        Some of the industries our digital agency specialises in
+                    </p>
+                    <ul class="cards flex items-center justify-between mb-[88px]">
+                        <li class="card w-[251px]">
+                            <span class="flex items-center  gap-[15px] mb-[18px]">
+                                <img src="./src/images/web-app.svg" alt="web app" class="web ">
+                                <h3 class=" font-medium text-[16px] leading-[23px] text-[#303948] ">Web & Mobile Apps
+                                </h3>
+                            </span>
+                            <p class=" font-normal text-[18px] leading-[26px] text-[#59616D]">
+                                Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit.
+                            </p>
+                        </li>
+                        <li class="card w-[251px]">
+                            <span class="flex items-center  gap-[15px] mb-[18px]">
+                                <img src="./src/images/design-service.svg" alt="web app" class="web ">
+                                <h3 class=" font-medium text-[16px] leading-[23px] text-[#303948] ">Design Services
+                                </h3>
+                            </span>
+                            <p class=" font-normal text-[18px] leading-[26px] text-[#59616D]">
+                                Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="cards flex items-center justify-between">
+                        <li class="card w-[251px]">
+                            <span class="flex items-center  gap-[15px] mb-[18px]">
+                                <img src="./src/images/SEO.svg" alt="web app" class="web ">
+                                <h3 class=" font-medium text-[16px] leading-[23px] text-[#303948] ">SEO
+                                </h3>
+                            </span>
+                            <p class=" font-normal text-[18px] leading-[26px] text-[#59616D]">
+                                Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit.
+                            </p>
+                        </li>
+                        <li class="card w-[251px]">
+                            <span class="flex items-center  gap-[15px] mb-[18px]">
+                                <img src="./src/images/security.svg" alt="web app" class="web ">
+                                <h3 class=" font-medium text-[16px] leading-[23px] text-[#303948] ">Security Tester
+                                </h3>
+                            </span>
+                            <p class=" font-normal text-[18px] leading-[26px] text-[#59616D]">
+                                Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="container mx-auto w-[1260px]">
+            <div class="process__inner flex items-center justify-between mt-[175px]">
+                <div class="left flex flex-col items-start justify-between w-[556px]">
+                    <h2 class="title mb-[52px] font-medium text-4xl leading-[51px] text-[#303948]">
+                        How does our process work?
+                    </h2>
+                    <p class="text w-[485px] mb-[60px] font-normal text-[18px] leading-[26px] text-[#59616D]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a href="#" class="link py-[18px] px-[69px] bg-[#14213D] rounded-[35px] text-[#FAFAFA]">See
+                        Details</a>
+                </div>
+                <div class="right w-[570px] flex items-center justify-between flex-col gap-[22px]">
+                    <ul class="cards flex items-center justify-between  gap-[22px]">
+                        <li class="card w-[250px]">
+                            <img src="./src/images/pr-img1.jpg" alt="img1" class="">
+                        </li>
+                        <li class="card w-[250px] relative">
+                            <img src="./src/images/pr-img2.jpg" alt="img1" class="">
+                            <img src="./src/images/process-circle.png " alt="circle"
+                                class="absolute z-10 top-[-40px] right-[-30px]">
+                        </li>
+                    </ul>
+                    <ul class="cards flex items-center justify-between gap-[22px]">
+                        <li class="card w-[250px] relative">
+                            <img src="./src/images/pr-img3.jpg" alt="img1" class="">
+                            <img src="./src/images/half-circle.png" alt="half-circle"
+                                class="absolute z-10 top-[55px] left-[-60px]">
+                        </li>
+                        <li class="card w-[250px] relative">
+                            <img src="./src/images/pr-img4.jpg" alt="img1" class="">
+                            <img src="./src/images/process-dots.png" alt="dots"
+                                class="absolute -z-10 top-[139px] left-[98px]">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container mx-auto w-[1260px]">
+            <div class="product__inner mt-[200px]">
+                <div class="top flex items-center justify-between">
+                    <div class="left">
+                        <span class="  text-[18px] leading-[26px] font-normal text-[#303948]">
+                            Our Product
+                        </span>
+                        <h2 class="mt-[14px] font-medium text-[#14213D] text-4xl leading-[51px]">
+                            We’ll let our work speak for itself
+                        </h2>
+                        <p class=" mt-[14px] text-[18px] text-[#59616D] leading-[26px] font-medium">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        </p>
+                    </div>
+                    <div class="right ">
+                        <button class="px-5 py-5 rounded-full bg-[rgba(20,33,61,0.5)]">
+                            <img src="./src/images/arrow-left.svg" alt="arrow-left" class="">
+                        </button>
+                        <button class="px-5 py-5 rounded-full bg-[#14213D] ml-10">
+                            <img src="./src/images/arrow-right.png" alt="arrow-left" class="w-[38.4px] h-[38.4px]">
+                        </button>
+                    </div>
+                </div>
+                <div class="product-main mt-[94px]">
+                    <ul class=" flex items-center justify-between gap-[170px]">
+                        <li class="card w-[300px] flex flex-col items-center ">
+                            <img src="./src/images/product-1.jpg" alt="product-1" class="">
+                            <h3 class=" mt-9 text-[#14213D] text-4xl leading-[51px] font-medium">PT. ABCDE</h3>
+                            <p class="mt-[14px] mb-[36px] text-lg leading-[26px] text-[#59616D] font-normal">Web
+                                Development</p>
+                            <a href="#" class="link  py-[18px] px-[69px] bg-[#14213D] rounded-[35px] text-[#FAFAFA]">See
+                                Details</a>
+                        </li>
+                        <li class="card w-[300px] flex flex-col items-center ">
+                            <img src="./src/images/product-2.jpg" alt="product-1" class="">
+                            <h3 class=" mt-9 text-[#14213D] text-4xl leading-[51px] font-medium">Rose Wood</h3>
+                            <p class="mt-[14px] mb-[36px] text-lg leading-[26px] text-[#59616D] font-normal">SEO</p>
+                            <a href="#" class="link  py-[18px] px-[69px] bg-[#14213D] rounded-[35px] text-[#FAFAFA]">See
+                                Details</a>
+                        </li>
+                        <li class="card w-[300px] flex flex-col items-center ">
+                            <img src="./src/images/product-3.jpg" alt="product-1" class="">
+                            <h3 class=" mt-9 text-[#14213D] text-4xl leading-[51px] font-medium">CoSpace</h3>
+                            <p class="mt-[14px] mb-[36px] text-lg leading-[26px] text-[#59616D] font-normal">
+                                Presentation Template</p>
+                            <a href="#" class="link  py-[18px] px-[69px] bg-[#14213D] rounded-[35px] text-[#FAFAFA]">See
+                                Details</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Testimonial">
+        <div class="container mx-auto w-[1260px] ">
+            <div class="Testimonial__inner mt-[165px] flex items-center justify-between ">
+                <div class="left relative ">
+                    <img src="./src/images/person.png" alt="person" class="">
+                    <img src="./src/images/Testimonial-dot1.png" alt="dots" class="absolute -z-10 top-[-63px] left-[292px]">
+                    <img src="./src/images/Testimonial-dot2.png" alt="dots" class="absolute z-10 top-[-7px] left-[337px]">
+                    <img src="./src/images/Testimonial-circle.png" alt="dots" class="absolute bottom-[75px] left-[358px]">
+                </div>
+                <div class="right flex flex-col  w-[650px]">
+                    <h2 class="mt-[141px] font-medium text-[36px] leading-[51px] mb-[22px]">Testimonials by them</h2>
+                    <p class="mb-[136px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="font-bold">-Joe Z</span> </p>
+                       <div class="flex items-end justify-end">
+                        <button class="px-5 py-5 rounded-full bg-[rgba(20,33,61,0.5)] ">
+                            <img src="./src/images/arrow-left.svg" alt="arrow-left" class="">
+                        </button>
+                        <button class="px-5 py-5 rounded-full bg-[#14213D] ml-10">
+                            <img src="./src/images/arrow-right.png" alt="arrow-left" class="w-[38.4px] h-[38.4px]">
+                        </button>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
